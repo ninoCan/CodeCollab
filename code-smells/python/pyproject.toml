@@ -1,0 +1,17 @@
+[project]
+name = "CodeCollab"
+version = "y"
+description = "A collection of katas and koans for AgileLab CodeCollab channel"
+authors = [
+    {name = "Antonino Cangialosi", email = "antonino.cangialosi@agilelab.it ninocangialosi@yahoo.it"},
+]
+dependencies = [
+    "pytest>=7.4.3",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
